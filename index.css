@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+body {
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.LoginPage{
+    display: block;
+    padding: 12px;
+    background-color: white;
+    width: 480px;
+    border-radius: 12px;
+
+}
+
+.Inputs{
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.Inputs .item {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    margin: 12px 0;
+    padding: 8px 6px;
+    height: 36px;
+
+    border: 1px solid black;
+
+}
+
+.Inputs .item:focus {
+    outline: none;
+}
+
+.btn {
+   display: flex; 
+   justify-content: flex-start;
+   width: 100%;
+}
+
+.btn #login {
+    display: block;
+}
+
+.btn button {
+   margin: 0 8px 0 0;
+   padding: 8px 12px;
+   border: none;
+   border-radius: 8px;
+   background: rgb(189, 189, 189);
+   color: black;
+   cursor: pointer;
+
+   transition: all .3s ease-in;
+   
+}
+
+.btn button:hover {
+    background-color: black;
+    color: white;
+}
